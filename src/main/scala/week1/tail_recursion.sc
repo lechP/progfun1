@@ -1,0 +1,13 @@
+def simpleFactorial(n: Int): Int =
+  if (n == 0) 1 else n * simpleFactorial(n - 1)
+
+//tail recursion version of factorial
+def factorial(n: Int): Int = {
+  def loop(acc: Int, n: Int): Int =
+    if (n == 0) acc else loop(acc * n, n - 1)
+  loop(1, n)
+}
+
+factorial(5)
+simpleFactorial(10)
+factorial(10)
