@@ -5,5 +5,8 @@ val y = new Rational(5, 7)
 val z = new Rational(3, 2)
 
 //x-y-z
-x.sub(y).sub(z)
-y.add(y)
+x - y -z
+y + y
+
+x + y
+

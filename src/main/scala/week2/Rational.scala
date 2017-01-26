@@ -13,18 +13,18 @@ class Rational(x: Int, y: Int) {
 
   def denominator = y / g
 
-  def add(that: Rational) =
+  def +(that: Rational) =
     new Rational(
       numerator * that.denominator + that.numerator * denominator,
       denominator * that.denominator)
 
-  def neg: Rational = new Rational(-numerator, denominator)
+  def unary_- : Rational = new Rational(-numerator, denominator)
 
-  def sub(that: Rational): Rational = add(that.neg)
+  def -(that: Rational): Rational = this + -that
 
-  def less(that: Rational) = numerator * that.denominator < that.numerator * denominator
+  def <(that: Rational) = numerator * that.denominator < that.numerator * denominator
 
-  def max(that: Rational) = if (this.less(that)) that else this
+  def max(that: Rational) = if (this < that) that else this
 
   override def toString: String = {
     numerator + "/" + denominator
