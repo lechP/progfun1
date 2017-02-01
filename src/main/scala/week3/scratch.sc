@@ -13,7 +13,7 @@ val y: String = x
 if (false) 1 else false
 
 val list = new Cons(1, new Cons(2, new Cons(3, Nil)))
-list.nth(-2) //does not work. why?!
+list.nth(-2)
 
 def nth[T](n: Int, xs: List[T]): T =
   if (xs.isEmpty) throw new IndexOutOfBoundsException

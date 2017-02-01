@@ -11,9 +11,9 @@ trait List[+T] {
 
   def nth(n: Int): T = {
     def loop(n: Int, list: List[T]): T = {
-      println(n)
+      println(list)
       if (isEmpty) throw new IndexOutOfBoundsException
-      else if (n == 0) head else loop(n - 1, tail)
+      else if (n == 0) list.head else loop(n - 1, list.tail)
     }
     loop(n, this)
   }

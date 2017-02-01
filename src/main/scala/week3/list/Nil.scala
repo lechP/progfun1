@@ -8,4 +8,6 @@ object Nil extends List[Nothing] {
   override def head: Nothing = throw new NoSuchElementException("Nil.head")
 
   override def tail: Nothing = throw new NoSuchElementException("Nil.tail")
+
+  override def toString: String = "]"
 }
