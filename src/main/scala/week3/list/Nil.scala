@@ -2,7 +2,7 @@ package week3.list
 
 import java.util.NoSuchElementException
 
-class Nil[T] extends List[T] {
+object Nil extends List[Nothing] {
   override def isEmpty: Boolean = true
 
   override def head: Nothing = throw new NoSuchElementException("Nil.head")

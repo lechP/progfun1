@@ -1,11 +1,13 @@
 package week3.list
 
-trait List[T] {
+trait List[+T] {
   def isEmpty: Boolean
 
   def head: T
 
   def tail: List[T]
+
+  def prepend[U >: T](elem: U) : List[U] = new Cons(elem, this)
 
   def nth(n: Int): T = {
     def loop(n: Int, list: List[T]): T = {
