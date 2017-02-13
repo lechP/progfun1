@@ -1,4 +1,4 @@
-package week3.list
+package course1.week3.list
 
 class Cons[T](val head: T, val tail: List[T]) extends List[T] {
 

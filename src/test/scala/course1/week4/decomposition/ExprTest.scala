@@ -1,4 +1,4 @@
-package week4.decomposition
+package course1.week4.decomposition
 
 import org.scalatest.FunSuite
 

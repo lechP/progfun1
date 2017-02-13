@@ -1,4 +1,4 @@
-package week4.decomposition
+package course1.week4.decomposition
 
 /**
   * Created by Lech_Piechota on 2/2/2017.

@@ -1,4 +1,4 @@
-package week3
+package course1.week3
 
 object EmptySet extends IntSet {
   override def contains(x: Int): Boolean = false

@@ -1,4 +1,4 @@
-package week4.decomposition
+package course1.week4.decomposition
 
 trait Expr {
   def eval: Int = this match {

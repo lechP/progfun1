@@ -1,4 +1,4 @@
-package week4
+package course1.week4
 
 import org.scalatest.FunSuite
 import org.junit.runner.RunWith

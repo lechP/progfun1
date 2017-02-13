@@ -1,4 +1,4 @@
-package week3
+package course1.week3
 
 abstract class IntSet {
   def incl(x: Int): IntSet

@@ -1,6 +1,6 @@
-package week4
+package course1.week4
 
-import week3.list.{List, Cons, Nil}
+import course1.week3.list.{List, Cons, Nil}
 
 
 object List {

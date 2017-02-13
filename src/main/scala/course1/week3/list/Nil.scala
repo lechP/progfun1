@@ -1,4 +1,4 @@
-package week3.list
+package course1.week3.list
 
 import java.util.NoSuchElementException
 

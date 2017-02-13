@@ -1,7 +1,7 @@
-import week3.{NonEmptySet, EmptySet}
-import week3.list._
+import course1.week3.{NonEmptySet, EmptySet}
+import course1.week3.list._
 
-new week2.Rational(1, 2)
+new course1.week2.Rational(1, 2)
 
 
 def error(msg: String) = throw new Error(msg)

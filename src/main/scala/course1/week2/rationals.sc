@@ -1,4 +1,4 @@
-import week2.Rational
+import course1.week2.Rational
 
 val x = new Rational(1, 3)
 val y = new Rational(5, 7)

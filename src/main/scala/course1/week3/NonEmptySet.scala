@@ -1,4 +1,4 @@
-package week3
+package course1.week3
 
 class NonEmptySet(elem: Int, left: IntSet, right: IntSet) extends IntSet {
 
